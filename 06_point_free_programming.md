@@ -11,7 +11,7 @@ This might all sound a bit abstract but if you are used to writing pipelines in 
 
 ## Function composition
 
-The simplest way to construct new functions from basic ones is through function composition. In mathematics, if we have a function, $f$, mapping from domain $A$ to domain $B$, which we can write as $f: A \\to B$, and another function $g$, $g: A \\to C$, we can create a new function $h: A \\to C$ by composing the two: $h(x) = g(f(x))$.
+The simplest way to construct new functions from basic ones is through function composition. In mathematics, if we have a function, $f$, mapping from domain $A$ to domain $B$, which we can write as $f: A \\to B$, and another function $g$, $g: B \\to C$, we can create a new function $h: A \\to C$ by composing the two: $h(x) = g(f(x))$.
 
 We can do exactly the same thing in R and define `h` in terms of functions `f` and `g` like this:
 
