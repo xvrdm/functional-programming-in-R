@@ -330,7 +330,7 @@ function(b) i + b
 
 The parameter `a` from `f` has been set to the parameter we gave it, `i`, but `i` has not been evaluated at this point!
 
-When we call the function, the expression is evaluated, in the global scope, but there `i` now has the value 4 because that is the last value it was assigned in the loop. The value of `i` was 1 when we called it to create the function but it is 5 when the expression is actually evaluated.
+When we call the function, the expression is evaluated, in the global scope, but there `i` now has the value 4 because that is the last value it was assigned in the loop. The value of `i` was 1 when we called it to create the function but it is 4 when the expression is actually evaluated.
 
 This also means that we can chance the value of `i` before we evaluate one of the functions, and this changes it from the value we intended when we created the function.
 
